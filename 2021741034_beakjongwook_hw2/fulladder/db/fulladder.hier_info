@@ -1,0 +1,11 @@
+|fulladder
+input_A => output_S.IN0
+input_A => output_Cout.IN0
+input_B => output_S.IN1
+input_B => output_Cout.IN1
+input_Cin => output_S.IN1
+input_Cin => output_Cout.IN1
+output_S << output_S.DB_MAX_OUTPUT_PORT_TYPE
+output_Cout << output_Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

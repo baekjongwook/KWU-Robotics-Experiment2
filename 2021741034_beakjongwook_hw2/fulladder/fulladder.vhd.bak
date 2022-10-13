@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity fulladder is
+	port(and_input1, and_input2 : in std_logic;
+			and_out : out std_logic;
+end fulladder;
+
+architecture design of fulladder is
+begin
+	and_out <= and_input1 and and_input2;
+end design;
